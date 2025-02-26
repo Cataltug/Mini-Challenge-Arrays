@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Array Mini Challenges</title>
+</head>
+<body>
+    <h1>Array Mini Challenges</h1>
+    <Script>
+        {// map() Challenge
+            const multiply = [1, 2, 3];
+            const mappedMultiply = multiply.map(item => item * 2);
+            console.log(mappedMultiply)
+        }
+
+        {// forEach() Challenge
+            const numbers = [1, 2, 3];
+            numbers.forEach(item => console.log("This is", item))
+        }
+
+        {// filter() Challenge
+            const numbers = [5, 12, 8, 21];
+            const filteredNumbers = numbers.filter(item => item > 10);
+            console.log(filteredNumbers);
+        }
+
+        {// find() Challenge
+            const fruits = ['apple', 'banana', 'strawberry'];
+            const found = fruits.find(item => item === 'banana');
+            console.log(found);
+        }
+
+        {// includes() Challenge
+            const fruits = ['apple', 'banana', 'strawberry'];
+            console.log(fruits.includes('apple'));
+        }
+
+        {// slice() Challenge
+            const numbers = [1, 2, 3, 4, 5];
+            const selectedNumbers = numbers.slice(0, 2);
+            console.log(selectedNumbers);
+        }
+
+        {// push() Challenge
+            const fruits = ['apple', 'banana', 'strawberry'];
+            fruits.push("Watermelon");
+            console.log(fruits);
+        }
+
+        {// pop() Challenge
+            const fruits = ['apple', 'banana', 'strawberry'];
+            fruits.pop();
+            console.log(fruits);
+        }
+
+    </Script>
+</body>
+</html>
